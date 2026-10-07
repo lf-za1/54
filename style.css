@@ -89,3 +89,28 @@ a {
 .btn-multi:hover {
     background-color: #daa520;
 }
+
+#credits {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    font-size: 13px;
+    text-align: center;
+    color: white;
+    border-top: 1px solid #f31414;
+    z-index: 999;
+}
+
+#credits a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#credits a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
